@@ -1,0 +1,119 @@
+[
+	{
+		"status" : false,
+		"ribbon" : "Popular",
+		"price_title" : "Silver",
+		"places" : [
+			"France",
+			"Dordogne",
+			"Bergerac"
+		],
+		"actual_price" : 300,
+		"discount"	: 25,
+		"card_feature" : [
+			{
+				"icon" : "fa-check",
+				"feature" : "33% Discount",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Hotels Booking",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Rent Car",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-times",
+				"feature" : "Flights Booking",
+				"icon_class" : "text-danger"
+			},
+			{
+				"icon" : "fa-times",
+				"feature" : "Sightseeing",
+				"icon_class" : "text-danger"
+			}
+		]
+	},
+	{
+		"status" : true,
+		"ribbon" : "Popular",
+		"price_title" : "Platinum",
+		"places" : [
+			"France",
+			"Dordogne",
+			"Bergerac"
+		],
+		"actual_price" : 500,
+		"discount"	: 25,
+		"card_feature" : [
+			{
+				"icon" : "fa-check",
+				"feature" : "33% Discount",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Hotels Booking",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Rent Car",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Flights Booking",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-times",
+				"feature" : "Sightseeing",
+				"icon_class" : "text-danger"
+			}
+		]
+	},
+	{
+		"status" : false,
+		"ribbon" : "Popular",
+		"price_title" : "Gold",
+		"places" : [
+			"France",
+			"Dordogne",
+			"Bergerac"
+		],
+		"actual_price" : 700,
+		"discount"	: 50,
+		"card_feature" : [
+			{
+				"icon" : "fa-check",
+				"feature" : "33% Discount",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Hotels Booking",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Rent Car",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Flights Booking",
+				"icon_class" : "primary-color"
+			},
+			{
+				"icon" : "fa-check",
+				"feature" : "Sightseeing",
+				"icon_class" : "primary-color"
+			}
+		]
+	}
+]

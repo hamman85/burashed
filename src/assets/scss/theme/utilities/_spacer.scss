@@ -1,0 +1,58 @@
+.section-gap{
+   padding-top:6rem;
+   padding-bottom:6rem;
+}
+.sec-popup-gap{
+   padding-top:9.25rem;
+   padding-bottom:6.1875rem;
+}
+.section-gap-lg{
+   padding-top:9.286rem;
+   padding-bottom:9.286rem;
+}   
+.section-gap-about{
+   padding-top:4rem;
+   padding-bottom:4rem;
+}
+.section-gap-blog{
+   padding-top:8.6rem;
+   padding-bottom:9.25rem;
+}
+.section-gap-testi,
+.section-gap-pricing,
+.section-gap-itin,
+.section-gap-port{
+   padding-top:8.6rem;
+   padding-bottom:9.1rem;
+}
+@media(max-width:991px){
+   .sec-popup-gap{
+      padding-bottom:5.8125rem;
+   }
+   .section-gap-pricing{
+      padding-top:5.5rem;
+      padding-bottom:3.25rem;
+   }
+   .section-gap-itin,
+   .section-gap-port{
+      padding-top:5.5rem;
+      padding-bottom:4.8rem;
+   }
+   .section-gap-about,.section-gap-blog{
+      padding-top:5.5rem;
+      padding-bottom:3.25rem;
+   }
+   .section-gap-testi{
+      padding-top:5.5rem;
+      padding-bottom:6.2rem;
+   }
+}
+
+@media(max-width:991px){
+   .section-gap-itin{
+      padding-top:0;
+   }
+   .section-gap-port{
+      padding-bottom:2.7rem;
+   }
+}

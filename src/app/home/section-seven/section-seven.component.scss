@@ -1,0 +1,89 @@
+
+.sub-heading{
+
+    h3{
+        position: relative;
+        border-bottom: 2px solid black;
+        margin-bottom: 60px;
+    }
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -31px;
+            left: 48%;
+            border: 15px solid transparent;
+            border-top-color: black;
+        }
+
+}
+
+.services-wrap{
+    background-color: rgb(242, 242, 242);
+}
+
+.overlay-holder{
+    margin:0 auto;
+    position: relative;
+
+    .testi-content{
+        background-color: white;
+        padding:70px 10px 40px 10px;
+        border-radius: 10px;
+        margin: 0px 10px;
+    }
+    .testi-img {
+        width: 100px;
+        margin: auto;
+        margin-bottom: -40px;
+    }
+}
+
+
+.footer-slide-cover{
+    margin: 80px 0px;
+}
+
+.slick-track{
+    height: 100px;
+}
+
+
+.footer-copy-right{
+    padding: 10px 0px;
+    background-color:rgb(0, 77, 64);
+    color:rgb(255, 255, 255);
+
+    p{
+        margin: 0px;
+    }
+}
+
+.copy-right{
+    text-align: left;
+    font-size: 13px;
+}
+
+.designed-by{
+    text-align: right;
+    font-size: 13px;
+}
+
+
+
+@media (max-width:992px){
+
+
+    .overlay-holder{
+        margin-top:50px;
+    }
+
+
+    .copy-right{
+        text-align: center;
+    }
+    
+    .designed-by{
+        text-align: center;
+    }
+}
+

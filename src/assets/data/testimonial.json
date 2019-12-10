@@ -1,0 +1,23 @@
+[
+	{
+		"img":"assets/images/user-1.jpg",
+		"name":"Eula Ross",
+		"comment":"Beautiful experience, excellent hotel & room service, excellent driver and professional."
+	}, 
+   {
+      "img":"assets/images/user-3.jpg",
+      "name":"stief lee",
+      "comment":"A big thanks goes to the trip manager Mr. John Cena for organizing a comfortable trip."
+   },
+	{
+		"img":"assets/images/user-2.jpg",
+		"name":"Lola Baldwin",
+		"comment":"Beautiful experience, excellent hotel & room service, excellent driver and professional."
+
+	},
+   {
+      "img":"assets/images/user-3.jpg",
+      "name":"stief lee",
+      "comment":"A big thanks goes to the trip manager Mr. John Cena for organizing a comfortable trip."
+   }
+]

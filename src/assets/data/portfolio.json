@@ -1,0 +1,50 @@
+[
+	{
+		"type":"architecture",
+		"image":"assets/images/port1.jpg",
+		"title":"NY Packages",
+		"place":"Lorem ipsum dolor sit amet, consectetur adipiscing eli tut nibh vel felis sodales cursus nec ut neque."
+	},
+	{
+		"type":"architecture",
+		"image":"assets/images/port2.jpg",
+		"title":"LA Packages",
+		"place":"Praesent ut nibh vel felis sodales cursus nec ut neque ipsum dolor sit amet, consectetur adipiscing eli."
+	},
+	{
+		"type":"architecture",
+		"image":"assets/images/port3.jpg",
+		"title":"SF Packages",
+		"place":"Vestibulum quis mi at ante blandit lobortis at ac purus at risus imperdiet, mattis lectus ac, fringilla."
+	},
+	{
+		"type":"architecture",
+		"image":"assets/images/port4.jpg",
+		"title":"HK Packages",
+		"place":"Aliquam at risus imperdiet, mattis lectus ac, fringilla quis mi at ante blandit lobortis at ac faucibus."
+	},
+	{
+		"type":"Construction",
+		"image":"assets/images/port5.jpg",
+		"title":"DLI Packages",
+		"place":"Nullam quis nulla faucibus, porttitor neque at, dictum accumsan sapien ac dui pulvinar, at euismod risus."
+	},
+	{
+		"type":"electrical",
+		"image":"assets/images/port6.jpg",
+		"title":"ND Packages",
+		"place":"Mauris accumsan sapien ac dui pulvinar, at euismod risus quis nulla faucibus, porttitor neque at, dictum."
+	},
+	{
+		"type":"electrical",
+		"image":"assets/images/port7.jpg",
+		"title":"OC Package",
+		"place":"Aenean in ligula consectetur, scelerisque quam vel, euism fermentum leo vitae elit facilisis, ac egestas."
+	},
+	{
+		"type":"Construction",
+		"image":"assets/images/port8.jpg",
+		"title":"SF Packages",
+		"place":"Nullam fermentum leo vitae elit facilisis, ac egestas arcu in ligula consectetur, scelerisque quam vel."
+	}
+]

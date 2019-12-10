@@ -1,0 +1,55 @@
+
+.sub-heading{
+
+    h3{
+        position: relative;
+        border-bottom: 2px solid black;
+        margin-bottom: 60px;
+    }
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -31px;
+            left: 48%;
+            border: 15px solid transparent;
+            border-top-color: black;
+        }
+
+}
+
+.services-wrap{
+    background-color: rgb(242, 242, 242);
+}
+
+.overlay-holder{
+    margin:0 auto;
+    position: relative;
+
+    .testi-content{
+        background-color: white;
+        padding:70px 10px 40px 10px;
+        border-radius: 10px;
+        margin: 0px 10px;
+    }
+    .testi-img {
+
+        margin-bottom: -40px;
+    }
+}
+
+
+.icon-slider-bottom{
+    
+    background-color: rgb(0,77,64);
+    text-align: center;
+    padding: 25px 0px;
+    h2{
+        margin:0px;
+        color:rgb(40,167,152);
+    }
+
+    h4{
+        margin:0px 15px;
+        color:rgb(40,167,152);
+    }
+}

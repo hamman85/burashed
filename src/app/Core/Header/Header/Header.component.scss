@@ -1,0 +1,44 @@
+.site-title{
+    font-size: 16px;
+    font-weight: 700;
+    color:rgb(0, 77, 64);
+    margin: 0px;
+}
+
+.burger-menu:hover{
+
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+
+.burger-menu{
+    display: none !important;
+    font-size: 16px;
+    padding: 0px;
+    min-height: 0px;
+    color: white;
+    cursor: pointer;
+
+}
+.burger-menu:active{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+@media (max-width:992px){
+
+    .burger-menu{
+        display: flex !important;
+        width: 100%; 
+
+    h6{
+        font-size: 14px;
+        padding-left:80px;
+        text-align: right;
+        }
+
+    }
+}

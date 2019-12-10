@@ -1,0 +1,22 @@
+[
+	{
+		"class":"icofont icofont-cement-mixer",
+		"number":"125",
+		"discription":"construction"
+	},
+	{
+		"class":"icofont icofont-energy-savings",
+		"number":"245",
+		"discription":"electrical work"
+	},
+	{
+		"class":"icofont icofont-paint-brush",
+		"number":"415",
+		"discription":"painting projects"
+	},
+	{
+		"class":"icofont icofont-energy-solar",
+		"number":"1125",
+		"discription":"green housing"
+	}
+]

@@ -1,0 +1,33 @@
+[
+	{
+      "imagePath":"assets/images/about8.jpg",
+      "title":"Flight Reservations",
+      "discription":"We provide you offers cost effective flight reservations to all destinations."
+   },
+   {
+      "imagePath":"assets/images/about6.jpg",
+      "title":"Accommodation",
+      "discription":"Fusce accumsan erat et porta eleifend. In venenatis ultrices ullamcorper. Lorem ipsum dolor sit amet."
+   },
+   {
+      "imagePath":"assets/images/about4.jpg",
+      "title":"Airline Loyalty",
+      "discription":"Fusce accumsan erat et porta eleifend. In venenatis ultrices ullamcorper. Lorem ipsum dolor sit amet. "
+   },
+   {
+      "imagePath":"assets/images/about7.jpg",
+      "title":"Accounting services",
+      "discription":"Fusce accumsan erat et porta eleifend. In venenatis ultrices ullamcorper. Lorem ipsum dolor sit amet."
+   },
+   {
+      "imagePath":"assets/images/about2.jpg",
+      "title":"Travel insurance",
+      "discription":"Fusce accumsan erat et porta eleifend. In venenatis ultrices ullamcorper. Lorem ipsum dolor sit amet."
+   },
+   {
+      "imagePath":"assets/images/about9.jpg",
+      "title":"Emergency Services",
+      "discription":"Fusce accumsan erat et porta eleifend. In venenatis ultrices ullamcorper. Lorem ipsum dolor sit amet."
+   }
+]
+                         

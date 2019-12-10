@@ -1,0 +1,38 @@
+<form #f="ngForm" [formGroup]="form" (ngSubmit)="OnSubmit(f.value)" method="post">
+	<div class="form-group" >
+		<span>
+			<input type="text" class="form-control" name="name" placeholder="الاسم" formControlName="name" [ngClass]="{'is-invalid':form.get('name').touched && form.get('name').invalid}">
+			<div class="invalid-feedback">
+            <div> ادخل الاسم</div>
+         </div>
+		</span>
+	</div>
+	<!--|form-group|-->
+	<div class="form-group">
+		<span>
+			<input type="email" class="form-control" name="email" placeholder="البريد الالكتروني" formControlName="email" [ngClass]="{'is-invalid':form.get('email').touched && form.get('email').invalid}">
+			<div *ngIf="form.get('email').touched && form.get('email').invalid"  class="invalid-feedback">
+            <div *ngIf="form.get('email').errors.required">ادخل البريد الالكتروني</div>
+            <div *ngIf="form.get('email').errors.email">البريد الالكتروني غير صحيح</div>
+         </div>
+		</span>
+	</div>
+	<!--|form-group|-->
+	<div class="form-group">
+		<span>
+			<input type="tel" class="form-control" name="phone" placeholder="الهاتف" formControlName="phone">
+		</span>
+	</div>
+	<!--|form-group|-->
+	<div class="form-group">
+		<span>
+			<textarea placeholder="الرسالة" class="form-control" name="comment" rows="3" formControlName="comment" [ngClass]="{'is-invalid':form.get('comment').touched && form.get('comment').invalid}"></textarea>
+			<div class="invalid-feedback">
+            <div> ادخل الرسالة</div>
+         </div>
+		</span>
+	</div>
+	<div class="modal-footer justify-content-start border-0 p-0">
+		<input type="submit" value="ارسل" class="button mb-2" [disabled]="form.invalid">
+	</div>
+</form>

@@ -1,0 +1,39 @@
+{
+	"header":[
+		{
+			"class":"facebook",
+			"icon" :"fab fa-facebook-f"
+		},
+		{
+			"class":"twitter",
+			"icon" :"fab fa-twitter"
+		},
+		{
+			"class":"linkedin",
+			"icon" :"fab fa-linkedin-in"
+		},
+		{
+			"class":"",
+			"icon" :"fab fa-yelp"
+		}
+	],
+
+	"footer":[
+		{
+			"class":"facebook",
+			"icon" :"fab fa-facebook-f"
+		},
+		{
+			"class":"twitter",
+			"icon" :"fab fa-twitter"
+		},
+		{
+			"class":"linkedin",
+			"icon" :"fab fa-linkedin-in"
+		},
+		{
+			"class":"yelp",
+			"icon" :"fab fa-yelp"
+		}		
+	]
+}

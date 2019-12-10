@@ -1,0 +1,175 @@
+/*---------------------------------------------------------------
+18.0 Footer
+----------------------------------------------------------------- */
+/*-----------|footer styling start|------------*/
+.footer-wrap{
+	.social-icons {
+		.social-icon {
+			li{
+				a{
+					i{
+						color:$black;
+					}
+				}
+			}
+		}
+	}	
+	.meta-info {
+		span {
+			a{
+				color: $white;
+				&:after{
+					content:",";
+					display:inline-block;
+				}
+			}
+			&:hover{
+				a{
+					opacity:0.7;
+               color:inherit;
+				}
+			}
+			&:last-child{
+				a:after{
+					display:none;
+				}
+			}
+		}
+	}
+	span{
+		color:$white;
+		font-size:  1rem;	
+		line-height: 24px;
+	}
+	.footer-logo{
+		a{
+			display:inline-block;
+			padding:0.5rem 0;
+		}
+	}
+	.border-hr-btm{
+		border-color:$light;
+	}
+	.copyright{
+		p{
+			color: $white;	
+			margin-bottom:0;
+		}
+	}
+	.widget-title{
+		color: $white;
+	}
+	.footer-contact-list{
+		li{
+			address{
+				margin-bottom:0;
+			}
+			span{
+				i{
+					font-size:  1rem;	
+				}
+			}
+			span,address,a{
+				color: $white;
+				font-size:  1rem;	
+				line-height: 24px;
+			}
+			a:hover{
+				opacity:0.7;
+			}
+		}	
+	}
+	.widget-category{
+		li{
+			display:block;
+			a{
+				color:$white;	
+				font-size:  1rem;	
+				line-height: 40px;
+				text-transform:capitalize;
+				&:hover{
+					opacity:0.7;
+				}
+			}
+		}
+	}
+	.widget-recent-listing{
+		.widget-list-item{
+			display:block;
+			h6,h6 a{
+				font-size:  1rem;	
+				font-weight: bold;	
+				line-height: 24px;
+				color:$white;
+				margin-bottom:0;
+			}
+			a{
+				&:hover{
+					opacity:0.7;
+				}
+			}
+		}
+	}
+	.sec-content{
+		p{
+			color:$white;
+		}
+	}
+	.footer-menu{
+		li{
+			display:block;
+			a{
+				color:$white;
+				font-size: 1rem;	
+				line-height: 41px;
+				text-transform:capitalize;
+				&:hover{
+					color:$primary;
+				}
+			}
+		}
+	}
+	.footer-form{
+		.form-inline{
+			input[type="text"],.form-control{
+				position:relative;
+				width:100%;
+			}
+			button,input[type="button"]{
+				position:absolute;
+				right:0;
+				top:0;
+				border-bottom-left-radius: 0;
+    			border-top-left-radius: 0;
+    			z-index:1;
+    			i{
+    				font-size:1.125rem;
+    			}
+			}
+			.btn:focus{
+				box-shadow:none;
+			}
+		}
+	}	
+}
+.widget-bdr-v1{
+	.widget-panel-info{
+		border-bottom: 1px solid #525252;
+	}
+}
+/*-----|footer-v1|------*/
+.footer-v1-wrap{
+	//background-color: $black;
+	.footer-top,.footer-bottom{
+		background-color: $black;
+	}
+	.footer-top{
+		.footer-contact-list{
+			li{
+				span{
+					color:$white;
+				}
+			}	
+		}	
+	}
+}

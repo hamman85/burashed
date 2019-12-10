@@ -1,0 +1,12 @@
+
+nav-link{
+    line-height: 2rem;
+}
+
+@media (max-width:992px){
+
+    .navbar-nav{
+        text-align: right;
+        margin-top: 40px;
+    }
+}

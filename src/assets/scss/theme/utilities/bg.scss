@@ -1,0 +1,94 @@
+
+/*---------------------------------------------------------------
+4.0 Backgrounds
+----------------------------------------------------------------- */
+/*------------ classes for background-color and color -------------*/
+.primary-bg{
+	background-color:$primary;
+}
+.secondary-bg{
+	background-color:$secondary;
+}
+.dark-bg{
+	background-color:$black;
+}
+.base-bg{
+	background-color:$white;
+}
+.gray-bg{
+   background-color:$light;
+}
+.gradient-faded-bg{
+	background: linear-gradient(270deg, rgba(255,255,255,0) 0%,$primary 67%);
+} 
+
+.gray-color{
+   color:$light;
+}
+.dark-color{
+   color:$black;
+}
+
+.primary-color{
+	color:$primary;
+}
+.secondary-color{
+	color:$secondary;
+}
+.dark-color{
+	color:$black;
+}
+.base-color{
+	color:$white;
+}
+
+
+/*------|bg-style classes|------*/
+.bg-img-style{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;	
+}
+.bg-img-style2{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+.bg-img-ryt-style{
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: inherit;	
+}
+.bg-img-left-style{
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: inherit;	
+}
+/*----------|slider-v1 background images|----------*/
+.home-slide-1{
+	background-image: url("../images/header1_slider1_bg.jpg");
+}
+// .home-slide-2{
+// 	background-image: url('../images/header1_slider2_img.jpg');
+// }
+// .home-slide-3{
+// 	background-image: url('../images/header1_slider3_img.jpg');
+// }
+
+.pricing-image-fixed{
+   background-image: url('../images/bg.jpeg');
+   background-attachment:fixed;
+}
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+   .pricing-image-fixed {
+      background-attachment:inherit;
+   }
+   .projects-v1 .post-grid-wrap .post-item:hover .overlay-wrap .overlay-content{
+      touch-action: manipulation;
+      
+   }
+}
+}
+

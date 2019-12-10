@@ -1,0 +1,20 @@
+[
+   {
+   "imagePath":"assets/images/itin-4.jpg",
+   "title":"OC Packages",
+   "price":"$300",
+   "discription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."    
+   },
+   {
+   "imagePath":"assets/images/itin-1.jpg",
+   "title":"LA Packages",
+   "price":"$500",
+   "discription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry"    
+   },
+   {
+   "imagePath":"assets/images/itin-2.jpg",
+   "title":"NY Packages",
+   "price":"$700",
+   "discription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry."    
+   }
+]

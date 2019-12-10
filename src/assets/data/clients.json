@@ -1,0 +1,33 @@
+[
+	{
+		"img": "assets/images/clients5.png",
+		"height":"83",
+		"width":"147"
+
+	},
+	{	
+		"img": "assets/images/clients1.png",
+		"height":"89",
+		"width":"158"
+	},
+	{
+		"img": "assets/images/clients2.png",
+		"height":"87",
+		"width":"154"
+	},
+	{
+		"img": "assets/images/clients3.png",
+		"height":"87",
+		"width":"148"
+	},
+	{
+		"img": "assets/images/clients4.png",
+		"height":"87",
+		"width":"154"
+	},
+	{
+		"img": "assets/images/clients2.png",
+		"height":"87",
+		"width":"154"
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"class":"menu-1",
+		"name" :"Home"
+	},
+	{
+		"class":"menu-2",
+		"name" :"Services"
+	},
+	{
+		"class":"menu-3",
+		"name" :"Portfolio"
+	},
+	{
+		"class":"menu-4",
+		"name" :"About"
+	},
+	{
+		"class":"menu-5",
+		"name" :"Blog"
+	},
+	{
+		"class":"menu-6",
+		"name" :"Contact"
+	}
+]

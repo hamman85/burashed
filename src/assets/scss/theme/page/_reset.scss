@@ -1,0 +1,390 @@
+
+/*---------------------------------------------------------------
+Reset
+-----------------------------------------------------------------*/  
+
+
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+#wrapper {
+  overflow-x:hidden;
+}
+ul,ol {
+  padding: 0;
+  margin-bottom: 0;
+}
+.list-inline >li{
+	 display:inline-block;
+}
+/*------------------ layout -------------------*/
+/*--------------typography-------------*/
+p,body,html{
+  text-align:inherit;
+}
+h1,h2,h3,h4,h5,h6{
+  text-transform:capitalize;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-top:0;
+  margin-bottom:0.714rem;
+  word-wrap: break-word;
+}
+/*----------|button styling|-----------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"]{
+  background-color:$primary;
+  border: none;
+  cursor:pointer;
+  border-radius:0.357rem;
+  color: $white; 
+  font-family:'Exo', sans-serif;  
+  font-size:1rem;
+  min-height:3.285rem;
+  text-transform:uppercase;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out 0s;
+  outline:none;
+  padding:0.786rem 1.714rem;
+}
+
+button:hover,
+button:focus,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+  outline:0;
+  box-shadow: 0 3px 9px 0 rgba(0,0,0,0.24);
+  background-color:$white;
+  color:$primary;
+}
+/*----------|form styling|-----------*/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.form-control {
+  border: 1px solid $primary;  
+  border-radius: 3px; 
+  background-color: $white;
+  color: $primary; 
+  font-family: 'Exo', sans-serif;
+  text-transform:capitalize;
+  font-size: 1.143rem;
+}
+input::placeholder{
+  color:$primary;
+  opacity:1;
+}
+textarea{
+  width:100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"] {
+  min-height:3rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus ,.form-control:focus{
+  border: 1px solid $primary;
+  outline: 0;
+  color: $primary;
+  box-shadow: none;
+}
+select.form-control{
+   height:3.285rem !important;
+   line-height:3.285rem;
+   &:focus{
+      outline:none;
+   }
+   option:focus{
+      outline:none;
+   }
+}
+.form-layout-v2{
+   input[type="text"],
+   input[type="email"],
+   input[type="url"],
+   input[type="password"],
+   input[type="search"],
+   input[type="tel"],
+   input[type="number"],
+   textarea,
+   .form-control {
+	   border:none;
+	   border-bottom: 1px solid $primary;  
+	   border-radius: 0;
+	   background-color: transparent; 
+	   color:$primary; 
+	   padding-left:0;
+      &::placeholder{
+         color:$primary;
+      }
+   }
+   input[type="text"]:focus,
+   input[type="email"]:focus,
+   input[type="url"]:focus,
+   input[type="password"]:focus,
+   input[type="search"]:focus,
+   input[type="tel"]:focus,
+   input[type="number"]:focus,
+   textarea:focus ,.form-control:focus{
+     border-color:$primary;
+   }
+}
+
+.sm-form{
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="number"],
+  textarea,
+  .form-control {
+	 font-size: 0.785rem;  
+	 line-height:0.785rem;
+	 color:$primary;
+	 border-radius:2px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="number"]{
+	 min-height:2.571rem;
+  }
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"]{
+   min-height:1.857rem;
+   padding:0 0.571rem;
+   font-size:0.785rem;  
+   line-height: 0.785rem;
+   border-radius:2px;
+   text-shadow:none;
+   font-weight:400;
+  }
+}
+.form-wrap{
+  input[type="button"].primary-btn,
+  input[type="reset"].primary-btn,
+  input[type="submit"].primary-btn{
+    background-color:$primary;
+    color:$white;
+    &:hover{
+      background-color:$white;
+      color:$primary;
+    }
+  }
+  input[type="button"].primary-btn2,
+  input[type="reset"].primary-btn2,
+  input[type="submit"].primary-btn2{
+    background-color:$primary;
+    color:$white;
+    &:hover{
+      background-color:$white;
+      color:$primary;
+    }
+  }
+  input[type="button"].dark-btn,
+  input[type="reset"].dark-btn,
+  input[type="submit"].dark-btn{
+    background-color:$primary;
+    color:$white;
+    &:hover{
+      background-color:$white;
+      color:$primary;
+    }
+  }
+}
+a{
+  text-decoration:none;
+  outline:none;
+  transition: all 0.5s ease-in-out;
+  color:$white;
+  &:hover{
+   color: $primary;
+  }
+}   
+body a:hover,a:active,a:focus{
+  outline: none;
+  text-decoration:none;
+}
+.btn-wrap{
+  line-height:0.9;
+}
+.button{
+	cursor:pointer;
+	border-radius:0.357rem;
+	font-size:1.143rem;
+	line-height:1.714rem;
+	font-weight: bold;
+   padding:0.786rem 1.714rem 0.6rem;
+   overflow:hidden;
+   z-index: 1;
+   backface-visibility: hidden;
+	transition: border-color 0.4s, background-color 0.4s,color 0.4s;
+   transition-timing-function: ease, ease,ease;
+   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	text-transform:capitalize;
+	min-height:3.286rem;
+	display:inline-block;
+	position:relative;
+	&:before,&:after{
+      content: '';
+      position: absolute;
+      height: 3.286rem;
+      width:100%;
+      bottom: 100%;
+      left: 0;
+      z-index: -1;
+      transform: translate3d(0, 0, 0);
+      transition: transform 0.3s;
+      transition-timing-function: ease;
+      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+   }
+	&:hover{
+      &:before,&:after{
+         transform: translate3d(0, 100%, 0);
+      }
+      &:after{
+         transition-delay: 0.175s;
+      }
+	}
+}
+.sm-btn{
+  font-size:1rem;
+  font-weight:500;
+  line-height:1.143rem;
+  text-transform:capitalize;
+  border-radius:4px;
+  padding:0.475rem 0.7rem;
+  position:relative;
+  min-height:2.025rem;
+}
+.primary-btn{
+   background-color:$primary;
+   border:1px solid transparent;
+   color:$white;
+   &:hover{
+      box-shadow: 0 3px 9px 0 rgba(0,0,0,0.24);
+      color:$primary;
+      background-color:$white;
+      border:1px solid $primary;
+   }
+}
+.secondary-btn{
+   background-color:$secondary;
+   border:1px solid $secondary;
+   color:$white;
+   &:hover{
+      box-shadow: 0 3px 9px 0 rgba(0,0,0,0.24);
+      color:$secondary;
+      background-color:$white;
+    }
+}
+
+.primary-light-bg{
+   background-color: rgba(0, 77, 64, 0.8);
+}
+.modal-dialog{
+   max-width:90% !important;
+}
+@media(max-width:991px){
+  .modal-dialog{
+      max-width:95% !important;
+   } 
+}
+
+/*--------|border classes|---------*/
+.border-all{
+  border: 1px solid #e7e7e7;
+}
+.border-hr-btm{
+  border-bottom: 1px solid #e7e7e7;
+}
+.border-hr-top{
+  border-top: 1px solid #e7e7e7;
+}
+.right-border {
+  border-right: 1px solid $primary;
+}
+.left-border{
+  border-left: 1px solid $primary;
+}
+/*--------|border-radius classes|---------*/
+.rounded-img-10{
+  border-radius:0.625rem;
+  img,.overlay-wrap,.overlay-content{
+   border-radius:0.625rem;
+  }
+}
+.rounded-img{
+  border-radius:0.357rem;
+  img{
+	 border-radius:0.357rem;
+  }
+}
+.rounded-border{
+	border-radius:0.357rem;
+	img,.overlay-content{
+		border-radius:0.357rem 0.357rem 0 0;
+	}
+	.post-content{
+		border-radius:0 0 0.357rem 0.357rem;
+	}
+}
+.rounded-bdr-all{
+  border-radius:0.357rem;
+  img,.overlay-wrap,.overlay-content{
+	 border-radius:0.357rem;
+  }
+  .post-content{
+	 border-radius:0.357rem;
+  }
+}
+
+// font-size
+.font-sm{
+   font-size:1rem;
+}
+.font-md{
+   font-size:2rem;
+}
+.font-size{
+   font-size:3rem;
+}   
+

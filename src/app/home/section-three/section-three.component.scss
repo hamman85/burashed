@@ -1,0 +1,41 @@
+.sub-heading{
+
+    h3{
+        position: relative;
+        color: white;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        margin-bottom: 60px;
+    }
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -31px;
+            right: 0px;
+            border: 15px solid transparent;
+            border-top-color: rgb(255, 255, 255);
+        }
+
+}
+
+
+.services-wrap{
+    background-image: url('../../../assets/images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.bgwrap{
+    background-color: rgba(0, 77, 64, 0.856);
+    padding: 100px 0px;
+}
+
+
+.list-style{
+
+    li{
+        background-color: transparent;
+        color: white;
+        border-color: transparent;
+    }
+}

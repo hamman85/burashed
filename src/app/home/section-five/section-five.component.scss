@@ -1,0 +1,245 @@
+.services-wrap{
+    background-color: rgb(242, 242, 242);
+}
+
+
+.sub-heading{
+
+    h3{
+        position: relative;
+        border-bottom: 2px solid black;
+        margin-bottom: 60px;
+    }
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -31px;
+            left: 48%;
+            border: 15px solid transparent;
+            border-top-color: black;
+        }
+
+}
+
+
+
+.icon-top-head{
+    
+    background-color: rgb(0,77,64);
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 60px;
+
+    h4{
+        margin:0px;
+        color:rgb(255, 255, 255);
+    }
+}
+
+
+
+.overlay-holder{
+    margin:0 auto;
+    position: relative;
+    z-index: 2;
+
+    
+    :after{
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: 47%;
+        background-color: rgb(255, 255, 255);
+        width: 25px;
+        height: 310px;
+        z-index: -1;
+    }
+
+
+    .testi-content{
+        background-color: white;
+        padding:30px 10px 30px 10px;
+        border-radius: 100px;
+        margin: 0px 10px;
+        box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.075);
+        border: 1px solid rgb(231, 231, 231);
+    }
+    .testi-img {
+        width:150px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 40px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+
+
+.icon-bottom{
+        margin-top: 60px;
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -70px;
+            left: 49%;
+            background-color: rgb(255, 255, 255);
+            width: 25px;
+            height:75px;
+        }
+        :before{
+            content: "";
+            position: absolute;
+            bottom: -110px;
+            left: 48.5%;
+            border: 20px solid transparent;
+            border-top-color: rgb(255, 255, 255);
+        }
+
+        
+    .testi-content{
+        background-color: white;
+        padding:30px 10px 30px 10px;
+        border-radius: 100px;
+        margin: 0px 10px;
+        box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.075);
+        border: 1px solid rgb(231, 231, 231);
+
+        h5{
+            margin:0px
+        }
+    }
+}
+
+.color-card-row{
+    margin-top: 120px;
+}
+.color-card{
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    p{
+        margin: 0px;
+    }
+}
+
+.color-card1{
+    background-color: rgb(63,120,83);
+}
+
+.color-card2{
+    background-image: linear-gradient(to right, rgb(196, 39, 32) , rgb(90, 29, 76));
+}
+
+.color-card3{
+    background-color: rgb(196, 39, 32);
+}
+
+.color-card4{
+    background-color: rgb(31, 79, 136);
+}
+
+.color-card5{
+    background-color: rgb(90, 29, 76);
+}
+
+
+
+
+
+@media (max-width:992px){
+
+
+    .overlay-holder{
+
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -80px;
+            left: 48%;
+            background-color: rgb(255, 255, 255);
+            width: 25px;
+            height: 310px;
+            z-index: -1;
+        }
+    
+    
+    }
+
+    .icon-bottom{
+        margin-top: 60px;
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -70px;
+            left: 48%;
+            background-color: rgb(255, 255, 255);
+            width: 25px;
+            height:75px;
+        }
+        :before{
+            content: "";
+            position: absolute;
+            bottom: -110px;
+            left: 47.4%;
+            border: 20px solid transparent;
+            border-top-color: rgb(255, 255, 255);
+        }
+    }
+    
+}
+
+
+@media (max-width:500px){
+
+
+    .overlay-holder{
+
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -80px;
+            left: 47%;
+            background-color: rgb(255, 255, 255);
+            width: 25px;
+            height: 310px;
+            z-index: -1;
+        }
+    
+    
+    }
+
+
+    .icon-bottom{
+        margin-top: 60px;
+        :after{
+            content: "";
+            position: absolute;
+            bottom: -70px;
+            left: 48%;
+            background-color: rgb(255, 255, 255);
+            width: 25px;
+            height:75px;
+        }
+        :before{
+            content: "";
+            position: absolute;
+            bottom: -110px;
+            left: 46.4%;
+            border: 20px solid transparent;
+            border-top-color: rgb(255, 255, 255);
+        }
+    }
+    
+}
+

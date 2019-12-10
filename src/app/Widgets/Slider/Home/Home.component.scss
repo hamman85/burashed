@@ -1,0 +1,45 @@
+.bg-wrap{
+    background: rgba(0, 77, 64, 0.747);
+    padding:210px 0 210px;
+}
+
+.slider-content{
+    h1{
+        font-size: 60px;
+        color: white;
+    }
+}
+
+.logo-box{
+    background-color: white;
+    border-radius: 60px 0px 0px 60px;
+    position: absolute;
+    top:70px;
+    right: 0px;
+    padding: 20px 30px;
+
+
+    img{
+        position: relative;
+        height: 80px;
+    }
+}
+
+
+
+.banner-bottom{
+    background-color: rgb(0, 77, 64);
+    padding: 30px 0px;
+    text-align: right;
+
+    .heading2{
+        color:rgb(171, 1, 61);
+    }
+    .heading1{
+        color:rgb(194, 97, 6);
+    }
+
+    p{
+        color: white;
+    }
+}

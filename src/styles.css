@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face{
+    src: url(../src/assets/fonts/29lt-bukra-bold.ttf);
+    font-family: bukra-bold;
+  }
+  
+  @font-face{
+    src: url(../src/assets/fonts/29lt-bukra-regular.ttf);
+    font-family: bukra;
+  }
+  
+
+
+body h1, h2, h3, h4, h5, h6{
+    font-family: bukra-bold;
+}
+
+body p {
+    font-family: bukra;
+}
